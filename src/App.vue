@@ -23,4 +23,13 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+  .building {
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/login-background.jpg');
+    background-size: 100% 100%;
+    height: 100%;
+    background-size: cover;
+  }
 </style>
+

@@ -6,6 +6,7 @@ import vuetify from '@/plugins/vuetify'
 import App from './App'
 import router from './router'
 import Bmob from 'hydrogen-js-sdk'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 Vue.use(vuetify);
 Vue.use(Vuex);

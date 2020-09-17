@@ -10,11 +10,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-<<<<<<< HEAD
     "hydrogen-js-sdk": "^2.2.4",
     "material-design-icons-iconfont": "^5.0.1",
-=======
->>>>>>> parent of c1377c6... 前端描述
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuetify": "^2.2.33"

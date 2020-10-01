@@ -12,11 +12,15 @@ Vue.use(vuetify);
 Vue.use(Vuex);
 Vue.config.productionTip = false;
 Bmob.initialize('de2125da0bd849ac','123456')
+import createPersistedState from 'vuex-persistedstate'
+
 
 const store = new Vuex.Store({
+  plugins: [createPersistedState({ storage: window.localStorage })],
   state: {
     name:'',
-    text:''
+    text:'',
+    searchDataList: []
   },
   mutations: {
     setName(state,val){
@@ -26,6 +30,9 @@ const store = new Vuex.Store({
     setText(state,val){
       state.text=val;
       console.log(text)
+    },
+    setSearchData(state, result) {
+      state.searchDataList = result
     }
   }
 })

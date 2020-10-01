@@ -22,7 +22,7 @@ export default {
   .building {
     justify-content: center;
     align-items: center;
-    background-image: url('assets/bg.jpg');
+    background-image: url('../static/bg.jpg');
     background-size: 100% 100%;
     height: 100%;
     background-size: cover;

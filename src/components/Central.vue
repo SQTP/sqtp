@@ -46,7 +46,7 @@ import Bmob from "hydrogen-js-sdk";
     data(){
       return {
         note: {
-          backgroundImage: "url(" + require("../assets/bg.jpg") + ")",
+          backgroundImage: "url(" + require("../../static/bg.jpg") + ")",
           backgroundRepeat: "repeat",
           backgroundSize: "25px auto",
           marginTop: "5px",

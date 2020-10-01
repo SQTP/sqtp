@@ -49,7 +49,7 @@ export default {
 <style  scoped>
 .search {
   width: calc(100vw);
-  background-image: url("./../assets/bg.jpg");
+  background-image: url("../../static/bg.jpg");
   background-size: cover;
   min-height: calc(100vh);
   padding-top: 50px;
